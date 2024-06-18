@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search">
+        <input type="text" placeholder="Enter City Name" spellcheck="false" />
+        <button><i class="bx bx-search-alt-2"></i></button>
+      </div>
+      <div class="error">
+        <p>Invalid <span style="color: red">City</span> Name</p>
+      </div>
+      <div class="weather">
+        <img src="images/clouds.png" alt="" class="rain" />
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">New Delhi</h2>
+        <div class="details">
+          <div class="col">
+            <i class="bx bxl-tailwind-css humid-icon"></i>
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <i class="bx bx-wind wind-icon"></i>
+            <div>
+              <p class="wind">15km/h</p>
+              <p>Wind Spped</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

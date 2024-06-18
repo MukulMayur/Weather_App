@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #222;
+}
+
+.container {
+  width: 100%;
+  max-width: 470px;
+  background: linear-gradient(45deg, #00feba, #5b548a);
+  color: #fff;
+  margin: 60px auto 0;
+  padding: 40px 35px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.container .search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .search input {
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  height: 60px;
+  padding: 10px 25px;
+  margin-right: 16px;
+  font-size: 18px;
+  flex-grow: 1;
+  background-color: #ebfffc;
+  color: #555;
+}
+
+.container .search button {
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.container .search button i {
+  font-size: 35px;
+  margin-top: 10px;
+  margin-right: -5px;
+}
+
+.container .weather img {
+  width: 170px;
+  margin-top: 30px;
+}
+
+.container .weather h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.container .weather h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: -20px;
+}
+
+.container .weather .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin-top: 50px;
+}
+.container .weather .details .col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-top: -10px;
+}
+.col .wind-icon,
+.humid-icon {
+  margin-right: 10px;
+  font-size: 50px;
+}
+
+.wind .humidity {
+  font-size: 28px;
+  margin-top: -6px;
+}
+
+.weather {
+  display: none;
+}
+
+.error {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: 500;
+  display: none;
+  margin: 20px auto 0;
+  margin-left: -30px;
+}
